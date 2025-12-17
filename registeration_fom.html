@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hostel Room Management System</title>
+</head>
+
+<body bgcolor="#e6f2ff">
+
+<center>
+<form action="hms.php" method="POST">
+
+<fieldset style="width:350px">
+
+<legend>
+<font color="white" size="5" style="background-color:black;">
+&nbsp; Student Registration Form &nbsp;
+</font>
+</legend>
+
+<br>
+
+<b>Student Name:</b><br>
+<input type="text" name="student_name" size="40" required><br><br>
+
+<b>Room Number:</b><br>
+<input type="text" name="room_number" size="40" required><br><br>
+
+<b>Mobile Number:</b><br>
+<input type="text" name="mobile_number" size="40" required><br><br>
+
+<b>Course:</b><br>
+<input type="text" name="course" size="40" required><br><br>
+
+<b>Year of Study:</b><br>
+<select name="year" required>
+    <option value="">--Select--</option>
+    <option>First Year</option>
+    <option>Second Year</option>
+    <option>Third Year</option>
+    <option>Fourth Year</option>
+</select><br><br>
+
+<b>Hostel Block:</b><br>
+<select name="block" required>
+    <option value="">--Select--</option>
+    <option>A Block</option>
+    <option>B Block</option>
+    <option>C Block</option>
+</select><br><br>
+
+<b>Food Type:</b><br>
+<input type="radio" name="food" value="Veg" required> Veg<br>
+<input type="radio" name="food" value="Non-Veg"> Non-Veg<br><br>
+
+<b>Parent Contact:</b><br>
+<input type="text" name="parent_contact" size="40" required><br><br>
+
+<input type="submit" name="register" value="Register">
+<input type="reset" value="Clear">
+
+<br><br>
+
+</fieldset>
+
+</form>
+</center>
+
+</body>
+</html>
